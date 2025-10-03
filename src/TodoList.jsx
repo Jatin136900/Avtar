@@ -75,8 +75,8 @@ export default function TodoList() {
         {task.map((obj, index) => {
           return <li key={index} className={obj.completed ? "completed" : ""} ><span>{obj.task}</span>
             <MdDelete onClick={(e) => deleteTask(e, obj.id)} />
-            {!obj.completed && <MdModeEdit onClick={(e) => editTask(e, obj, id)} />}
-            {!obj.completed && <FaCheck onClick={(e) => markAsComplete(e, obj, id)} />}
+            {!obj.completed && <MdModeEdit onClick={(e) => editTask(e, obj. id)} />}
+            {!obj.completed && <FaCheck onClick={(e) => markAsComplete(e, obj. id)} />}
           </li>
         })}
       </ul>
