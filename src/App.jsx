@@ -19,9 +19,9 @@ export default function App() {
       <div className="flex p-10">
         <>
           <Box title="box1" img={img} content="this is paragraph 1 out of 4" />
-          <Box title="box1" img={img2} content="this is paragraph 2 out of 4" />
-          <Box title="box1" img={img3} content="this is paragraph 3 out of 4" />
-          <Box title="box1" img={img4} content="this is paragraph 4 out of 4" />
+          <Box title="box2" img={img2} content="this is paragraph 2 out of 4" />
+          <Box title="box3" img={img3} content="this is paragraph 3 out of 4" />
+          <Box title="box4" img={img4} content="this is paragraph 4 out of 4" />
         </>
       </div>
 
