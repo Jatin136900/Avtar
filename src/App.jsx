@@ -1,4 +1,5 @@
-import Avtar from "./Avtar";
+import { Route, Routes, Link } from "react-router"
+import Avtar from "./Avtar.jsx";
 import TodoList from "./TodoList";
 import Box from "./Box";
 import img from "./images/car1.webp";
@@ -22,8 +23,13 @@ export default function App() {
           <Box title="box2" img={img2} content="this is paragraph 2 out of 4" />
           <Box title="box3" img={img3} content="this is paragraph 3 out of 4" />
           <Box title="box4" img={img4} content="this is paragraph 4 out of 4" />
+
         </>
       </div>
+      
+     
+
+  
 
     </>
   )
